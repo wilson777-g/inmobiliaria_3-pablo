@@ -25,6 +25,7 @@ Asegúrate de tener instalado **Node.js** (versión 16 o superior).
 
 Inicia el servidor de desarrollo
 npm run dev
+http://localhost:3000/
 
 🌐 Descripción del Proyecto
 
