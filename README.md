@@ -25,23 +25,7 @@ Asegúrate de tener instalado **Node.js** (versión 16 o superior).
 
 Inicia el servidor de desarrollo
 npm run dev
-inmobiliaria_3-pablo/
-│
-├── public/
-│   ├── logo_proyecto.jpg        # Logo del proyecto (mostrado en README)
-│
-├── src/
-│   ├── assets/                  # Imágenes y recursos gráficos
-│   ├── components/              # Componentes reutilizables de React
-│   ├── pages/                   # Vistas principales del sitio
-│   ├── App.jsx                  # Componente raíz del proyecto
-│   └── index.css                # Configuración base de estilos con Tailwind
-│
-├── .gitignore
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+
 🌐 Descripción del Proyecto
 
 Pablo Tu Hogar Ideal es una plataforma inmobiliaria digital que permite presentar propiedades, destacar beneficios, y brindar una experiencia visual atractiva y funcional.
