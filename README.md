@@ -43,7 +43,7 @@ Escalabilidad para futuras integraciones con bases de datos o APIs.
 
 👨‍💻 Desarrollado por: Wilson Andrés Camacho Culma
 🏢 Empresa: Tecnología Primer
-📧 Correo: soporte@tecnologiaprimer.com
+📧 Correo: andrescamacho.19@hotmail.com
 
 🌍 Proyecto formativo vinculado al desarrollo de soluciones digitales para gestión inmobiliaria.
 
