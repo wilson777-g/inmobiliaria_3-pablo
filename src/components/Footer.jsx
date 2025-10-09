@@ -8,9 +8,9 @@ import React from 'react';
           <div className="container mx-auto px-6 py-12">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
               <div>
-                <h3 className="text-xl font-bold mb-4">Propiedades Cundinamarca</h3>
+                <h3 className="text-xl font-bold mb-4">Propiedades Cundinamarca y Tolima</h3>
                 <p className="text-gray-400">
-                  Tu mejor opción para encontrar lotes, casas y apartamentos en Cundinamarca. Asesoría de confianza.
+                  Tu mejor opción para encontrar lotes, casas y apartamentos en Cundinamarca y Tolima. Asesoría de confianza.
                 </p>
               </div>
               <div>

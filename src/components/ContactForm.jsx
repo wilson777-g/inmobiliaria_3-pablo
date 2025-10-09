@@ -17,7 +17,7 @@ import React, { useState } from 'react';
 
       const handleSubmit = (e) => {
         e.preventDefault();
-        const recipientEmail = 'pafercainmobiliariocarmen01@gmail.com';
+        const recipientEmail = 'andrescamacho.19@hotmail.com';
         const subject = `Consulta Inmobiliaria de ${formData.name}`;
         const body = `Hola Pablo,\n\nHas recibido una nueva consulta a través de tu página web.\n\nNombre: ${formData.name}\nCorreo: ${formData.email}\nTeléfono: ${formData.phone || 'No proporcionado'}\n\nMensaje:\n${formData.message}\n\n---\nEste es un mensaje automático.`;
         
