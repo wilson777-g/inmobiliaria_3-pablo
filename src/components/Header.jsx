@@ -1,9 +1,16 @@
-import React from 'react';
+
+    import React from 'react';
     import { motion } from 'framer-motion';
+    import { useTranslation } from '@/hooks/useTranslation';
+    import LanguageSelector from '@/components/LanguageSelector';
 
     const Header = () => {
+      const { t } = useTranslation();
       return (
         <header className="py-12 bg-transparent relative">
+           <div className="absolute top-4 right-4 z-20">
+              <LanguageSelector />
+            </div>
           <div className="container mx-auto text-center px-4 z-10 relative">
             <motion.div 
               initial={{ opacity: 0, y: -20 }}
@@ -12,9 +19,9 @@ import React from 'react';
               className="flex justify-center items-center mb-6"
             >
                <img
-                alt="Logo Asesor Inmobiliario P.C"
-                className="h-36 w-36 object-contain rounded-full shadow-md border-2 border-amber-700"
-               src="https://horizons-cdn.hostinger.com/05350ba8-2066-4221-966a-34492523c02a/a8ad4d3a708b8ef4cf129ede6c19d4b3.jpg" />
+                alt="Logo Camacho Finca Raiz"
+                className="h-40 w-auto" 
+                src="https://horizons-cdn.hostinger.com/05350ba8-2066-4221-966a-34492523c02a/038da3d0a7c391b97cb40f310316717b.png" />
             </motion.div>
             
             <motion.div
@@ -29,7 +36,7 @@ import React from 'react';
                 className="relative text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900 px-6 py-3 border-2 border-white/50 rounded-lg shadow-lg"
                 style={{textShadow: '0px 2px 4px rgba(0,0,0,0.1)'}}
               >
-                Inversiones Inmobiliarias Cundinamarca y Tolima
+                {t('header.title')}
               </h1>
             </motion.div>
             
@@ -39,7 +46,7 @@ import React from 'react';
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              Su sueño de tener propiedad comienza aquí. Asesoría experta por <span className="font-bold text-blue-600">Pablo Fernando Camacho</span>.
+              {t('header.subtitle.start')} <span className="font-bold text-blue-600">{t('header.subtitle.expertName')}</span>.
             </motion.p>
           </div>
         </header>
@@ -47,3 +54,4 @@ import React from 'react';
     };
 
     export default Header;
+  

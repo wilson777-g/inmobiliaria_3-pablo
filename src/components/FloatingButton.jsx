@@ -1,5 +1,5 @@
 
-import React from 'react';
+    import React from 'react';
     import { motion } from 'framer-motion';
     import { FaWhatsapp } from 'react-icons/fa';
     import { Phone } from 'lucide-react';
@@ -58,3 +58,4 @@ import React from 'react';
     };
 
     export default FloatingButton;
+  

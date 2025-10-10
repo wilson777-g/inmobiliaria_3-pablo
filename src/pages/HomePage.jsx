@@ -1,4 +1,3 @@
-
 import React from 'react';
     import { Helmet } from 'react-helmet';
     import Header from '@/components/Header';
@@ -6,13 +5,15 @@ import React from 'react';
     import AgentProfile from '@/components/AgentProfile';
     import ContactForm from '@/components/ContactForm';
     import VideosCTA from '@/components/VideosCTA';
+    import { useTranslation } from '@/hooks/useTranslation';
 
     const HomePage = () => {
+      const { t } = useTranslation();
       return (
         <>
           <Helmet>
-            <title>Inmobiliaria Cundinamarca y Tolima | Venta de Propiedades</title>
-            <meta name="description" content="Encuentre los mejores lotes, casas, apartamentos y fincas en venta en Cundinamarca y Tolima con el asesor Pablo Fernando Camacho. ¡Contáctenos hoy!" />
+            <title>{t('homePage.metaTitle')}</title>
+            <meta name="description" content={t('homePage.metaDescription')} />
           </Helmet>
           <div className="overflow-hidden">
             <Header />
