@@ -49,10 +49,10 @@
                   <a href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <FaWhatsapp size={24} />
                   </a>
-                  <a href="https://www.tiktok.com/@pablocamachorealtor" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://www.tiktok.com/@camachofincaraiz.oficial" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <FaTiktok size={24} />
                   </a>
-                  <a href="https://www.youtube.com/@PabloFincaRaiz" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                  <a href="https://www.youtube.com/@Camachofincaraiz2025" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                     <FaYoutube size={24} />
                   </a>
                 </div>
