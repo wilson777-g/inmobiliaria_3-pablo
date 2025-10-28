@@ -53,6 +53,5 @@
         </motion.div>
       );
     };
-o
     export default AgentProfile;
   
