@@ -4,7 +4,7 @@ export default {
         metaDescription: "Encuentre los mejores lotes, casas, apartamentos y fincas en venta en Cundinamarca y Tolima con el asesor Pablo Fernando Camacho. ¡Contáctenos hoy!",
       },
       header: {
-        title: "Inversiones Inmobiliarias Cundinamarca y Tolima",
+        title: "Inversiones Inmobiliarias Cundinamarca y Tolima Colombia",
         subtitle: {
           start: "Su sueño de tener propiedad comienza aquí. Asesoría experta por",
           expertName: "Pablo Fernando Camacho",

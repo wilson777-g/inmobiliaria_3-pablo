@@ -43,16 +43,16 @@
             <motion.a href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-3 rounded-full text-white bg-[#25D366] hover:opacity-90 transition-opacity">
               <FaWhatsapp className="h-6 w-6" />
             </motion.a>
-            <motion.a href="https://www.tiktok.com/@pablocamachorealtor" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-3 rounded-full text-white bg-black hover:opacity-80 transition-opacity">
+            <motion.a href="https://www.tiktok.com/@camachofincaraiz.oficial" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-3 rounded-full text-white bg-black hover:opacity-80 transition-opacity">
               <FaTiktok className="h-6 w-6" />
             </motion.a>
-            <motion.a href="https://www.youtube.com/@PabloFincaRaiz" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-3 rounded-full text-white bg-[#FF0000] hover:opacity-90 transition-opacity">
+            <motion.a href="https://www.youtube.com/@Camachofincaraiz2025" target="_blank" rel="noopener noreferrer" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className="p-3 rounded-full text-white bg-[#FF0000] hover:opacity-90 transition-opacity">
               <FaYoutube className="h-6 w-6" />
             </motion.a>
           </div>
         </motion.div>
       );
     };
-
+o
     export default AgentProfile;
   
