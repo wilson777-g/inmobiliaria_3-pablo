@@ -1,14 +1,17 @@
 export default {
-      homePage: {
-        metaTitle: "Inmobiliaria Cundinamarca y Tolima | Venta de Propiedades",
-        metaDescription: "Encuentre los mejores lotes, casas, apartamentos y fincas en venta en Cundinamarca y Tolima con el asesor Pablo Fernando Camacho. ¡Contáctenos hoy!",
-      },
-      header: {
-        title: "Inversiones Inmobiliarias Cundinamarca y Tolima Colombia",
-        subtitle: {
-          start: "Su sueño de tener propiedad comienza aquí. Asesoría experta por",
-          expertName: "Pablo Fernando Camacho",
-        },
+  homePage: {
+    metaTitle: "Inmobiliaria Cundinamarca y Tolima | Venta de Propiedades",
+    metaDescription:
+      "Encuentre los mejores lotes, casas, apartamentos y fincas en venta en Cundinamarca y Tolima con el asesor Pablo Fernando Camacho. ¡Contáctenos hoy!",
+  },
+  header: {
+    // ✅ Título con animación de bandera y borde negro
+    title: 'Inversiones Inmobiliarias Cundinamarca y Tolima <span class="flag-glow">Colombia</span>',
+    subtitle: {
+      start:
+        "Su sueño de tener propiedad comienza aquí. Asesoría experta por",
+      expertName: "Pablo Fernando Camacho",
+    },
       },
       propertyListings: {
         title: "Propiedades Disponibles",
@@ -38,7 +41,23 @@ export default {
             { id: 7, type: "Finca", department: "Cundinamarca", title: "Finca de Recreo 'La Ilusión'", price: "1.800.000.000", location: "Anapoima", area: "3 Ha", description: "Finca de recreo con piscina, kiosko, y casa de 5 habitaciones.", videoId: 7 },
             { id: 8, type: "Lote", department: "Cundinamarca", title: "Lote en Condominio 'El Paraíso'", price: "250.000.000", location: "Fusagasugá", area: "1000 m²", description: "Lote en condominio con acceso a áreas sociales y piscina.", videoId: 13 },
             { id: 9, type: "Casa", department: "Tolima", title: "Casa de Lujo en Ibagué", price: "980.000.000", location: "Ibagué", area: "350 m²", description: "Impresionante casa en conjunto cerrado con piscina privada.", videoId: 1 },
-            { id: 10, type: "Apartamento", department: "Tolima", title: "Apartamento con Vista al Nevado", price: "450.000.000", location: "Ibagué", area: "120 m²", description: "Penthouse con acabados modernos y vistas espectaculares.", videoId: 9 },
+            {
+  id: 10,
+  type: "Apartamento",
+  department: "Tolima",
+  title: "Conjunto Residencial MIRAMONTE",
+  price: "39.000.000",
+  location: "Carmen de Apicalá",
+  area: "72 m²",
+  description: `* Proyecto MIRAMONTE
+* Conjunto Residencial
+* Desde 39 millones
+* Desde 72 metros cuadrados
+* A 1 minuto del parque principal`,
+  videoId: 9,
+  image: "/imagenes/miramonte.jpg"
+},
+
             { id: 11, type: "Finca", department: "Tolima", title: "Finca Cafetera en Melgar", price: "1.500.000.000", location: "Melgar", area: "10 Ha", description: "Tradicional finca cafetera, ideal para turismo o producción.", videoId: 10 },
             { id: 12, type: "Lote", department: "Tolima", title: "Lote en Condominio Náutico", price: "350.000.000", location: "Prado", area: "1500 m²", description: "Lote exclusivo con acceso directo a la represa de Prado.", videoId: 12 },
             { id: 13, type: "Casa", department: "Cundinamarca", title: "Casa Colonial en Tabio", price: "680.000.000", location: "Tabio", area: "220 m²", description: "Encantadora casa estilo colonial, rodeada de naturaleza.", videoId: 15 },

@@ -1,0 +1,16 @@
+.property-description {
+  background: #f9fafc;
+  border-radius: 10px;
+  padding: 12px 18px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  line-height: 1.8;
+  font-size: 15px;
+  color: #333;
+  white-space: pre-line;
+  margin-bottom: 15px;
+
+  /* 👇 Corrección para alinear los asteriscos a la izquierda */
+  text-indent: 0;
+  padding-left: 10px;
+  font-family: "Segoe UI", sans-serif;
+}
