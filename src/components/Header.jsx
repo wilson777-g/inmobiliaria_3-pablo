@@ -22,10 +22,13 @@ const Header = () => {
           className="flex justify-center items-center mb-6"
         >
           <img
-            alt="Logo Camacho Finca Raiz"
-            className="h-40 w-auto"
-            src="https://horizons-cdn.hostinger.com/05350ba8-2066-4221-966a-34492523c02a/038da3d0a7c391b97cb40f310316717b.png"
-          />
+  src="/imagenes/logo_proyecto-3.png"
+  alt="Logo Camacho Finca Raíz"
+  className="h-44 md:h-56 w-auto mx-auto drop-shadow-md"
+  style={{ background: "transparent", imageRendering: "auto" }}
+/>
+
+
         </motion.div>
 
         {/* Título principal con efecto bandera */}
