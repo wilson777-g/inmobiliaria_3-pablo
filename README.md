@@ -3,10 +3,6 @@
 
 # 🏡 Pablo Tu Hogar Ideal
 
-\<p align="center"\>
-\<img src="./public/imagenes/logo\_proyecto-3.png" alt="Logo Pablo Tu Hogar Ideal" width="250"/\>
-\</p\>
-
 [](https://opensource.org/licenses/MIT)
 [](https://vitejs.dev/)
 
