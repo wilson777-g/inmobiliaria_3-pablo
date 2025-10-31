@@ -101,16 +101,16 @@ const PropertyListings = () => {
         {filteredProperties.map((prop) => (
           <motion.div
             key={prop.id}
-            className="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200 transition-all duration-300 hover:shadow-cyan-500/20 hover:border-cyan-400 hover:-translate-y-2 group flex flex-col"
+            className="property-card bg-white rounded-xl overflow-hidden shadow-lg border border-gray-200 transition-all duration-300 hover:shadow-cyan-500/20 hover:border-cyan-400 hover:-translate-y-2 group flex flex-col"
             variants={cardVariants}
             layout
           >
-            {/* Imagen principal del proyecto */}
+            {/* Imagen principal */}
             <div className="relative">
               <img
                 className="w-full h-48 object-cover"
                 alt={`${t('propertyListings.propertyIn')} ${prop.location}`}
-                src="/imagenes/miramonte.jpg"
+                src={prop.image || "/imagenes/miramonte.jpg"}
               />
               <div className="absolute top-0 right-0 bg-blue-600 text-white font-bold px-3 py-1 m-2 rounded-full text-sm">
                 {t(`propertyListings.types.${prop.type.toLowerCase()}`)}
@@ -129,9 +129,11 @@ const PropertyListings = () => {
                 {prop.title}
               </h3>
 
-              <p className="property-description">
-                {prop.description}
-              </p>
+              {/* Descripción con formato HTML (se renderiza correctamente) */}
+              <div
+                className="property-description"
+                dangerouslySetInnerHTML={{ __html: prop.description }}
+              ></div>
 
               <div className="border-t border-gray-200 pt-4 mt-auto space-y-3 text-sm">
                 <div className="flex items-center text-gray-500">
@@ -161,3 +163,5 @@ const PropertyListings = () => {
 };
 
 export default PropertyListings;
+
+
